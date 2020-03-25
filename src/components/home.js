@@ -68,7 +68,7 @@ function Home(props) {
         <ChoroplethMap states={states}/>
 
         <div className="timeseries-header fadeInUp" style={{animationDelay: '1.5s'}}>
-          <h1>Spread Trends</h1>
+          <h1 className="header">Spread Trends</h1>
           <div className="tabs">
             <div className={`tab ${graphOption===1 ? 'focused' : ''}`} onClick={()=>{
               setGraphOption(1);
